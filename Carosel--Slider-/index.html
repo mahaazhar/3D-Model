@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Product Carousel</title>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Slick Slider CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div id="m1" class="swiper-slide card"></div>
+      <div id="m2" class="swiper-slide card"></div>
+      <div id="m3" class="swiper-slide card"></div>
+      <div id="m4" class="swiper-slide card"></div>
+      <div id="m5" class="swiper-slide card"></div>
+      <div id="m6" class="swiper-slide card"></div>
+      <div id="m7" class="swiper-slide card"></div>
+      <div id="m8" class="swiper-slide card"></div>
+    </div>
+    <!-- If we need pagination -->
+
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <div id="detail" class="popup">
+    <img id="close" class="svg" src="close.png" alt="" />
+    <h1 class="popup-heading">Hello</h1>
+    <p class="popup-desc">
+      3D models .
+    </p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Three.js -->
+  <!-- /*<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>*/ -->
+
+  <!-- Custom JavaScript -->
+  <script src="script.js" type="module">
+  </script>
+</body>
+
+</html>
